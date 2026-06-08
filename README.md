@@ -1,18 +1,11 @@
 # Educase — React JS Intern/Fresher Assignment
 
-> **Qualifier task** — Built in React JS as per the Adobe XD design specification.  
-> Design Reference: [Adobe XD Link](https://xd.adobe.com/view/b68eea25-003d-4a5d-8fdd-d463eeb20b32-e3dd)
-
----
-
 ## 🔗 Submission Links
 
 | | Link |
 |---|---|
-| 🐙 **GitHub Repository** | `https://github.com/YOUR_USERNAME/educase-app` |
-| 🚀 **Live Hosted URL** | `https://educase-app.vercel.app` |
-
-> ⚠️ Replace the above with your actual GitHub repo URL and Vercel/Netlify deployment URL before submitting.
+| 🐙 **GitHub Repository** | `https://github.com/bharat258025/educase` |
+| 🚀 **Live Hosted URL** | `https://educase-three-eta.vercel.app/` |
 
 ---
 
@@ -66,10 +59,10 @@ educase-app/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/educase-app.git
+git clone https://github.com/bharat258025/educase
 
 # 2. Enter the project directory
-cd educase-app
+cd educase
 
 # 3. Install dependencies
 npm install
@@ -116,64 +109,6 @@ npm run dev
 
 ---
 
-## 🚀 Deployment Guide
-
-### Option A — Deploy on Vercel (Recommended)
-
-```bash
-# 1. Install Vercel CLI
-npm install -g vercel
-
-# 2. Build the project
-npm run build
-
-# 3. Deploy
-vercel
-
-# Follow prompts → your app will be live at https://your-app.vercel.app
-```
-
-Or connect your GitHub repo directly at [vercel.com](https://vercel.com) — it auto-deploys on every push.
-
----
-
-### Option B — Deploy on Netlify
-
-```bash
-# 1. Install Netlify CLI
-npm install -g netlify-cli
-
-# 2. Build the project
-npm run build
-
-# 3. Deploy
-netlify deploy --prod --dir=dist
-```
-
-Or drag & drop the `dist/` folder at [app.netlify.com/drop](https://app.netlify.com/drop).
-
-> **Note:** Both `vercel.json` and `netlify.toml` are included in this project to ensure React Router works correctly on refresh (SPA routing fix).
-
----
-
-### Option C — Push to GitHub
-
-```bash
-# Initialize git (if not done)
-git init
-
-# Add all files
-git add .
-
-# Commit
-git commit -m "feat: complete Educase internship assignment"
-
-# Add your GitHub remote
-git remote add origin https://github.com/YOUR_USERNAME/educase-app.git
-
-# Push
-git push -u origin main
-```
 
 ---
 
@@ -205,16 +140,10 @@ git push -u origin main
 | `Controlled inputs` | All form fields (value + onChange) |
 | `Component composition` | `ProtectedRoute` wraps the Account page |
 
----
-
-## 📸 Design Reference
-
-Adobe XD: https://xd.adobe.com/view/b68eea25-003d-4a5d-8fdd-d463eeb20b32-e3dd
 
 ---
 
 ## 👤 Author
 
-**Your Name**  
-Intern Applicant — React JS Role  
-GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+**Bharat suthar**   
+GitHub: [@bharat258025](https://github.com/bharat258025)
