@@ -1,0 +1,13 @@
+# netlify.toml
+# This tells Netlify to serve index.html for ALL routes
+# Without this, refreshing on /signup or /account gives a 404
+# because Netlify looks for actual files at those paths
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
