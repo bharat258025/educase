@@ -19,7 +19,7 @@ function Welcome() {
         {/* Welcome text block - positioned near bottom like the design */}
         <div className="mb-8">
           <h1 className="text-2xl font-bold text-gray-900 mb-2">
-            Welcome to PopX
+            Welcome to Educase
           </h1>
           <p className="text-sm text-gray-500 leading-relaxed">
             Lorem ipsum dolor sit amet,<br />

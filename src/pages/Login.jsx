@@ -45,7 +45,7 @@ function Login() {
 
     // Retrieve the registered user from localStorage
     // Interview Tip: JSON.parse converts the JSON string back to an object
-    const savedUser = JSON.parse(localStorage.getItem('popxUser'))
+    const savedUser = JSON.parse(localStorage.getItem('educaseUser'))
 
     // Check if user exists and credentials match
     if (!savedUser) {
@@ -71,7 +71,7 @@ function Login() {
 
         {/* Page title */}
         <h1 className="text-2xl font-bold text-gray-900 mb-1">
-          Signin to your<br />PopX account
+          Signin to your<br />Educase account
         </h1>
         <p className="text-sm text-gray-500 mb-6 mt-1 leading-relaxed">
           Lorem ipsum dolor sit amet,<br />

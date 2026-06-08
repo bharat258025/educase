@@ -71,7 +71,7 @@ function Signup() {
 
     // Save user data to localStorage as a JSON string
     // Interview Tip: localStorage only stores strings, so we use JSON.stringify
-    localStorage.setItem('popxUser', JSON.stringify(formData))
+    localStorage.setItem('educaseUser', JSON.stringify(formData))
 
     // Navigate to login after successful signup
     navigate('/login')
@@ -83,7 +83,7 @@ function Signup() {
 
         {/* Page title */}
         <h1 className="text-2xl font-bold text-gray-900 mb-1">
-          Create your<br />PopX account
+          Create your<br />Educase account
         </h1>
 
         {/* Spacer */}

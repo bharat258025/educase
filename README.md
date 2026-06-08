@@ -1,4 +1,4 @@
-# PopX — React JS Intern/Fresher Assignment
+# Educase — React JS Intern/Fresher Assignment
 
 > **Qualifier task** — Built in React JS as per the Adobe XD design specification.  
 > Design Reference: [Adobe XD Link](https://xd.adobe.com/view/b68eea25-003d-4a5d-8fdd-d463eeb20b32-e3dd)
@@ -9,8 +9,8 @@
 
 | | Link |
 |---|---|
-| 🐙 **GitHub Repository** | `https://github.com/YOUR_USERNAME/popx-app` |
-| 🚀 **Live Hosted URL** | `https://popx-app.vercel.app` |
+| 🐙 **GitHub Repository** | `https://github.com/YOUR_USERNAME/educase-app` |
+| 🚀 **Live Hosted URL** | `https://educase-app.vercel.app` |
 
 > ⚠️ Replace the above with your actual GitHub repo URL and Vercel/Netlify deployment URL before submitting.
 
@@ -18,7 +18,7 @@
 
 ## 📌 About the Project
 
-PopX is a mobile-first React application featuring a complete authentication flow — from account creation to a protected profile settings page. The UI is centered on desktop to replicate a mobile app experience, built pixel-perfect to the given Adobe XD design.
+Educase is a mobile-first React application featuring a complete authentication flow — from account creation to a protected profile settings page. The UI is centered on desktop to replicate a mobile app experience, built pixel-perfect to the given Adobe XD design.
 
 ---
 
@@ -37,7 +37,7 @@ PopX is a mobile-first React application featuring a complete authentication flo
 ## 📁 Project Structure
 
 ```
-popx-app/
+educase-app/
 ├── index.html                  ← HTML entry point
 ├── vite.config.js              ← Vite configuration
 ├── tailwind.config.js          ← Tailwind configuration
@@ -66,10 +66,10 @@ popx-app/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/popx-app.git
+git clone https://github.com/YOUR_USERNAME/educase-app.git
 
 # 2. Enter the project directory
-cd popx-app
+cd educase-app
 
 # 3. Install dependencies
 npm install
@@ -108,8 +108,8 @@ npm run dev
 
 ## 🔒 Authentication Logic
 
-- On **Signup**: user data `{ fullName, phone, email, password, company, isAgency }` is stored in `localStorage` as `popxUser`
-- On **Login**: credentials are matched against `popxUser` in localStorage
+- On **Signup**: user data `{ fullName, phone, email, password, company, isAgency }` is stored in `localStorage` as `educaseUser`
+- On **Login**: credentials are matched against `educaseUser` in localStorage
 - On **success**: `localStorage.setItem("isAuthenticated", "true")` is set
 - **ProtectedRoute** checks for `isAuthenticated` before rendering `/account`; if absent, redirects to `/login`
 - On **Logout**: `localStorage.removeItem("isAuthenticated")` is called and user is sent to `/`
@@ -166,10 +166,10 @@ git init
 git add .
 
 # Commit
-git commit -m "feat: complete PopX internship assignment"
+git commit -m "feat: complete Educase internship assignment"
 
 # Add your GitHub remote
-git remote add origin https://github.com/YOUR_USERNAME/popx-app.git
+git remote add origin https://github.com/YOUR_USERNAME/educase-app.git
 
 # Push
 git push -u origin main

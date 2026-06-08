@@ -14,7 +14,7 @@ function Account() {
   // Interview Tip: Empty dependency array [] means "run only on first render"
   useEffect(() => {
     // Get saved user data from localStorage and parse it to an object
-    const savedUser = JSON.parse(localStorage.getItem('popxUser'))
+    const savedUser = JSON.parse(localStorage.getItem('educaseUser'))
     if (savedUser) {
       setUser(savedUser)
     }
